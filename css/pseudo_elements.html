@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+    p::first-letter {
+            /* ilk herfi deyisir*/
+            font-size: 2rem;
+        }
+        
+        p::first-line
+        /*ilk setiri deyisir*/
+        
+        {
+            font-weight: bolder;
+            font-style: italic;
+        }
+        
+        p {
+            line-height: 25px;
+            /*setirler arasinda mesafeni gosterir*/
+        }
+        
+        a:visited {
+            color: red;
+        }
+        
+        a:active
+        /* konopkani basanda dolan deyiklikler ucun*/
+        
+        {
+            color: black;
+            background-color: blueviolet;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore qui, ducimus tempora voluptatem dicta laudantium repellat officia provident, pariatur mollitia illo doloremque debitis repellendus repudiandae magni similique quidem, a rerum.</p>
+    </div>
+    <a href="https://www.google.com/" target="_blank">GOOGLE</a>
+</body>
+
+</html>
