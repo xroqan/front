@@ -1,0 +1,32 @@
+.navbar {
+    height: 55px;
+    background-color: rgb(24, 77, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li {
+    padding: 10px;
+    transition: 0.6s;
+}
+
+ul li:hover {
+    background-color: rgb(53, 56, 53);
+    border-radius: 20px;
+}
