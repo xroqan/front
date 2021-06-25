@@ -1,0 +1,34 @@
+/*
+body {
+    background-color: blue;
+}
+
+@media(max-width:768px) {
+    body {
+        background-color: brown;
+    }
+}
+
+
+ media bunun anlami  odur ki, 768px kicildende pencereni maviden brown rengine kec*/
+
+@media(max-width:500px) {
+    h2 {
+        background-color: yellow;
+    }
+    h3 {
+        background-color: rebeccapurple;
+    }
+}
+
+.qutu {
+    width: 25%;
+    height: 250px;
+    background-color: seagreen;
+}
+
+@media(max-width:500px) {
+    .qutu {
+        width: 100%;
+    }
+}
