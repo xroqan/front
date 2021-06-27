@@ -1,0 +1,22 @@
+.urun {
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h4 {
+    display: none;
+}
+
+.ur img {
+    position: relative;
+    width: 80%;
+}
+
+.ur span {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-weight: bolder;
+    position: absolute;
+}
