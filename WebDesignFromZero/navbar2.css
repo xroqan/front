@@ -1,0 +1,10 @@
+.navbar2 {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar2 img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
