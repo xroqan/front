@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+h2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    color: #ccc;
+}
+
+h2:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    color: red;
+    transition: 0.8s;
+}
+
+h2:hover:before {
+    width: 100%;
+    background-color: teal;
+    color: white;
+    border-radius: 30px;
+}
