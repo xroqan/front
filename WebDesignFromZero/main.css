@@ -1,0 +1,46 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-technology {
+    margin: 15px;
+    padding: 3px;
+    width: 42rem;
+    border: 1px solid #ccc;
+}
+
+.card-technology img {
+    width: 100%;
+    height: 400px;
+}
+
+.technology {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 6px;
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-img span {
+    position: absolute;
+    left: 0;
+}
+
+.card-technology h2 {
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+.head {
+    border-left: 8px solid blue;
+    margin-left: 4rem;
+    margin-top: 8px;
+    padding: 10px;
+}

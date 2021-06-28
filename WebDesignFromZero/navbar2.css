@@ -22,3 +22,8 @@
             border-bottom: 2px solid black;
             transition: 1s;
         }
+        
+        .element {
+            padding: 35px;
+            margin: 0;
+        }
