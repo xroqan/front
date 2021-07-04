@@ -16,14 +16,24 @@
             text-decoration: none;
             font-size: larger;
             letter-spacing: 2px;
-        }
-        
-        .navbar2 a:hover {
-            border-bottom: 2px solid black;
-            transition: 1s;
+            color: white;
         }
         
         .element {
             padding: 35px;
-            margin: 0;
+            margin: 15px;
+        }
+        
+        .navbar2 .element {
+            background-color: rgb(8, 8, 8);
+            padding: 20px;
+            margin: 10 5px;
+            display: flex;
+            align-items: center;
+            border-radius: 6px;
+            transition: 0.4;
+        }
+        
+        .navbar2 .element :hover {
+            transform: scale(1.05);
         }

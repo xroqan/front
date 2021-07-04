@@ -44,3 +44,10 @@
     margin-top: 8px;
     padding: 10px;
 }
+
+span:hover {
+    padding-left: 35px;
+    transition: 0.5s;
+    background-color: chartreuse;
+    color: blue;
+}
