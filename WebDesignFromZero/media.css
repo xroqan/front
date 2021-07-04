@@ -1,0 +1,20 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+video {
+    width: 50rem;
+    margin: 12px;
+    padding: 12px;
+}
+
+.media h2 {
+    padding: 12px;
+    border-bottom: 8px solid #ccc;
+}
+
+body {
+    background-image: url(/WebDesignFromZero/Fotos/BackgroudForBody.jpg);
+}
